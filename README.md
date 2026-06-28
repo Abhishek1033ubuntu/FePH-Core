@@ -29,7 +29,7 @@ Ferroelectric-Perovskite Hybrid Solar Architecture with Phononic Mitigation
 
 Below are the thermal solver simulation curves under peak solar flux ($1000 \text{ W/m}^2$) over the operational lifespan:
 
-![Active Phononic Lifecycle Thermal Solver](image_7dcfdc.png)
+![Active Phononic Lifecycle Thermal Solver](Assets/image_7dcfdc.png)
 
 * [cite_start]**Unshielded Control Junction:** Internal junction temperatures spike immediately to **$54.8^\circ\text{C}$**, inducing a thermal voltage melt that degrades operational $V_{oc}$[cite: 93].
 * [cite_start]**Phononic Shielded Substrate:** The acoustic lattice reflects thermal wave vectors away from the charge carriers, maintaining a stable, cool operating junction at **$29.5^\circ\text{C}$**[cite: 94, 95].
@@ -42,7 +42,7 @@ Below are the thermal solver simulation curves under peak solar flux ($1000 \tex
 
 The baseline execution suite tracks tracking stability, degradation lifecycle parameters, and manufacturing capital constraints simultaneously:
 
-![Multiphysics Feasibility Suite Dashboard](image_7e3fe4.png)
+![Multiphysics Feasibility Suite Dashboard](Assets/image_7e3fe4.png)
 
 * **Transient Mitigation:** The FeFET dielectric relaxation exhibits an ultra-fast time constant ($\tau = 265,620,000.00 \text{ ps}$), enabling microsecond firmware settlement pauses to fully resolve displacement current spikes.
 * [cite_start]**Off-Peak Energy Recovery:** The adaptive tracking loops eliminate transient tracking oscillations, recovering **$\sim 18.5\%$ of lost energy** during low-angle off-peak hours[cite: 104].
@@ -71,7 +71,7 @@ The physical hardware-software feedback loops generated the following target val
 [YEAR 15 - AGED]:   Actual V = 0.580V | Net Power = 20.982 mW | Dynamic Loop Pause = 11.0 µs
 =============================================================================
 
-(Visual log verification isolated from simulation runtime suite: image_7e2618.png)
+(Visual log verification isolated from simulation runtime suite: Assets/image_7e2618.png)
 By scaling the loop pause from $5.0\ \mu\text{s}$ out to $11.0\ \mu\text{s}$, the system safely insulates the power grid delivery from material aging, keeping the net panel output highly stable at $20.98\text{ mW}$ after 15 years of continuous field stress.
 
 5. Repository Directory Structure
