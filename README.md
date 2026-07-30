@@ -1,7 +1,8 @@
 # FePH-Core
 Ferroelectric-Perovskite Hybrid Solar Architecture with Phononic Mitigation
 # "March 2026" Active-Phononic Photovoltaic Architecture
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21510669.svg)](https://doi.org/10.5281/zenodo.21510669) ![Status](https://img.shields.io/badge/Status-Research_POC-orange) ![Type](https://img.shields.io/badge/Type-Simulation_Model-blue)
+---
 ## Multiphysics Feasibility Suite & Core Design Specifications
 
 [cite_start]This repository contains the core architectural design specifications, multi-physics simulation validation protocols, and control firmware concepts for the **"March 2026" Active-Phononic Photovoltaic Architecture**[cite: 54]. [cite_start]This system introduces a high-efficiency Ferroelectric-Perovskite Hybrid (FePH) stack designed to bypass the thermodynamic Shockley-Queisser limit through active electrostatic carrier management and sub-wavelength acoustic thermal shielding[cite: 55, 57, 62].
